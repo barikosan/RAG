@@ -16,7 +16,10 @@ It consists of three main steps:
 ## Generation:
   * Fed augmented prompts to several LLM-based Spark NLP QA models to generate answers.
   * In total, 2 medical (flan_t5, clinical_notes_QA) and 3 non-medical (albert,bert,roberta) QA models were used.
+    
 
 The architecture of the overall system is as follows:
+
+
 
 ![rag_architecture](https://github.com/barikosan/SparkWikiRAG/assets/23119100/b864204c-9f88-4a32-bb85-26f3f729600d)
