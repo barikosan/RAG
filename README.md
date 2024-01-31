@@ -11,7 +11,7 @@ It consists of three main steps:
 
 ## Augmentation:
   * Embeddings were stored in ChromaDB vector database which uses advanced indexing techniques to enable fast and accurate search of high-dimensional vectors.
-  * Queried ChromaBD to augment the question prompts with the contextually relevant information from the dataset.
+  * Queried ChromaDB to augment the question prompts with the contextually relevant information from the dataset.
 
 ## Generation:
   * Fed augmented prompts to several LLM-based Spark NLP QA models to generate answers.
